@@ -7,7 +7,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("Thanushree's Bug Detective")
+st.title("Thanushree's Study Bot")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
